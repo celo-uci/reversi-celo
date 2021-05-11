@@ -17,6 +17,9 @@ body {
     radial-gradient(at 0% 100%, hsla(22,100%,77%,1) 0, transparent 50%),  
     radial-gradient(at 80% 100%, hsla(242,100%,70%,1) 0, transparent 50%),  
     radial-gradient(at 0% 0%, hsla(343,100%,76%,1) 0, transparent 50%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
 }
 
 .container {
@@ -24,7 +27,6 @@ body {
     flex-direction: column;
     text-align: center;
     padding-top: 50px;
-    min-height: 100%;
 }
 
 .row {
@@ -118,10 +120,8 @@ input::placeholder{
     font-weight: 600;
     padding: 16px 24px;
     border-radius: 50px;
-    margin-left: -1px;
     border: none;
     background: #000;
-    border: 1px solid #000;
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -129,12 +129,7 @@ input::placeholder{
 }
 
 .btn-input:hover {
-    font-weight: 600;
-    padding: 16px 24px;
-    border-radius: 50px;
-    margin-left: -1px;
-    border: 1px solid #000;;
-    background-color: transparent;
-    color: black;
+    background-color: #fff;
+    color: #000;
     cursor: pointer;
 }
