@@ -94,6 +94,11 @@ input::placeholder{
     .input-group {
         width: 80vw;
     }
+
+    .home-img {
+        width:100%;
+        height: auto;
+    }
      
 }
 
