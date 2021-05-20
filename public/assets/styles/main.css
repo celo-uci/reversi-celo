@@ -2,7 +2,7 @@ html {
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
 }
 body {
     font-size: 1rem;
@@ -132,4 +132,63 @@ input::placeholder{
     background-color: #fff;
     color: #000;
     cursor: pointer;
+}
+
+.align-left {
+    text-align: left;
+}
+
+#messages {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+}
+.messages-container {
+    width: 600px;
+    flex-grow: 4;
+    margin: 0 36px;
+}
+.messages {
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.message-input {
+    display: flex;
+    flex-direction: row;
+    bottom: -48px;
+    position: absolute;
+    width: 100%;
+    border: none;
+}
+
+.message-input > button {
+    height: 48px;
+    border-radius: 0;
+}
+
+.message-input > input {
+    width: 100%;
+    text-align: left;
+    font-size: 1rem;
+    padding: 8px;
+}
+.message-input > input::placeholder {
+    text-align: left;
+}
+
+.chat_message, .join_room_response, .left_room_response {
+    margin-left: 16px;
+}
+
+.lobby-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin: 0 36px;
+}
+
+.players-container {
+    flex-grow: 1;
 }
