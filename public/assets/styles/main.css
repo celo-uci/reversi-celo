@@ -192,3 +192,24 @@ input::placeholder{
 .players-container {
     flex-grow: 1;
 }
+
+.player-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-start {
+    text-align: left;
+    margin-right: 8px;
+}
+
+.text-end {
+    text-align: right;
+}
+
+.btn-invite {
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: transparent;
+}

@@ -134,10 +134,10 @@ io.on('connection', (socket) => {
                         username: players[member.id].username,
                         count: sockets.length
                     }
+                    // Tell everyone that a new usser has joined the chat room
+                    io.of('/').to(room).emit('join_room_response', response);
+                    serverLog('join_room succeeded ', JSON.stringify(response));
                 }
-                // Tell everyone that a new usser has joined the chat room
-                io.of('/').to(room).emit('join_room_response', response);
-                serverLog('join_room succeeded ', JSON.stringify(response));
             }
         });
     });

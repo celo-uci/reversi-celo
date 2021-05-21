@@ -31,7 +31,7 @@ socket.on('log',function(array) {
 });
 
 function makeInviteButton() {
-    let newHTML = "<button type='button' class='btn btn-outline-primary'>Invite</button>";
+    let newHTML = "<button type='button' class='btn-invite'>Invite</button>";
     let newNode = $(newHTML);
     return newNode;
 }
@@ -51,13 +51,13 @@ socket.on('join_room_response', (payload) =>{
         return;
     }
 
-    let domElements = $('.sockets_' + payload.socket_id);
+    let domElements = $('.socket_' + payload.socket_id);
     if(domElements.length !== 0) {
         return;
     }
     /* 
         <div class="row align-items-center">
-            <div class="col text-end">
+            <div class="col text-start">
                 Don
             </div>
             <div class="col text-end">
@@ -67,20 +67,20 @@ socket.on('join_room_response', (payload) =>{
     */
     let nodeA = $("<div></div>");
     nodeA.addClass("row");
-    nodeA.addClass("align-items-center");
+    nodeA.addClass("player-group");
     nodeA.addClass("socket_" + payload.socket_id);
     nodeA.hide();
 
 
     let nodeB = $("<div></div>");
     nodeB.addClass("col");
-    nodeB.addClass("text-end");
+    nodeB.addClass("text-start");
     nodeB.addClass("socket_" + payload.socket_id);
-    nodeB.append('<h4>' + payload.username + '</h4>');
+    nodeB.append(payload.username);
 
     let nodeC = $("<div></div>");
     nodeC.addClass("col");
-    nodeC.addClass("text-start");
+    nodeC.addClass("text-end");
     nodeC.addClass("socket_" + payload.socket_id);
     let buttonC = makeInviteButton();
     nodeC. append(buttonC);
