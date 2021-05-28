@@ -1,0 +1,20 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>.Black_988 {
+	animation: 0.99s linear 0s 1 normal forwards running Black_988;
+}
+@keyframes Black_988 {
+	0% {
+		fill: rgba(255,255,255,1);
+	}
+	50.51% {
+		fill: rgba(0,0,0,1);
+	}
+	100% {
+		fill: rgba(0,0,0,1);
+	}
+}
+</style><g clip-path="url(#clip_0_334)">
+<ellipse fill="black" stroke="#CBCBCB" class="Black_988" transform="translate(32 32)" rx="30" ry="30"/></g>
+<defs><clipPath id="clip_0_334"><rect width="64" height="64"/></clipPath>
+</defs>
+</svg>

@@ -1,0 +1,20 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>.White_215 {
+	animation: 0.99s linear 0s 1 normal forwards running White_215;
+}
+@keyframes White_215 {
+	0% {
+		opacity: 1;
+	}
+	50.51% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+</style><g clip-path="url(#clip_0_72)">
+<ellipse fill="white" fill-opacity="0.8" stroke="#CBCBCB" class="White_215" transform="translate(32 32)" rx="30" ry="30"/></g>
+<defs><clipPath id="clip_0_72"><rect width="64" height="64"/></clipPath>
+</defs>
+</svg>

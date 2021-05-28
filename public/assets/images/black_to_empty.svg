@@ -1,0 +1,20 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>.Black_203 {
+	animation: 0.99s linear 0s 1 normal forwards running Black_203;
+}
+@keyframes Black_203 {
+	0% {
+		opacity: 1;
+	}
+	50.51% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+</style><g clip-path="url(#clip_0_627)">
+<ellipse fill="black" fill-opacity="0.8" stroke="#CBCBCB" class="Black_203" transform="translate(32 32)" rx="30" ry="30"/></g>
+<defs><clipPath id="clip_0_627"><rect width="64" height="64"/></clipPath>
+</defs>
+</svg>
