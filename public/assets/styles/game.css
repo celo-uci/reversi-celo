@@ -8,7 +8,10 @@
     align-items: center;
     justify-content: center;
 }
-
+#quit {
+    position: absolute;
+    right: 32px;
+}
 .score-token {
     height: 20px;
     width: 20px;
@@ -25,6 +28,7 @@
     width: 100%;
     background: rgba(0,0,0,0.1);
     padding-bottom: 16px;
+    margin-bottom: 16px;
 }
 .game-title {
     margin-right: 8px;
@@ -68,8 +72,37 @@ table#game_board td {
 }
 
 td.hovered_over:hover {
-    background: rgba(255,255,255,0.15);
+    background: rgba(255,255,255,0.3);
     cursor: pointer;
+}
+
+progress {
+    /* RESETS */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+
+    width: 100%;
+
+    background-color: rgba(0, 0, 0, 0.15);
+    color: #000;
+}
+
+/* WEBKIT BROWSERS - CHROME, OPERA AND SAFARI */
+progress::-webkit-progress-bar {
+    background-color: rgba(0, 0, 0, 0.15);
+
+}
+
+progress::-webkit-progress-value {
+    background-color: #000;
+}
+
+/* MOZILLA FIREFOX */
+progress::-moz-progress-bar {
+    background-color: #000;
+
 }
 
 @media (max-width: 768px) {

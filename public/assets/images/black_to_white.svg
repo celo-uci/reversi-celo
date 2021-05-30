@@ -1,8 +1,8 @@
 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-<style>.Black_445 {
-	animation: 0.99s linear 0s 1 normal forwards running Black_445;
+<style>.Black_225 {
+	animation: 0.99s linear 0s 1 normal forwards running Black_225;
 }
-@keyframes Black_445 {
+@keyframes Black_225 {
 	0% {
 		fill: rgba(0,0,0,1);
 	}
@@ -13,8 +13,8 @@
 		fill: rgba(255,255,255,1);
 	}
 }
-</style><g clip-path="url(#clip_0_880)">
-<ellipse fill="white" stroke="#CBCBCB" class="Black_445" transform="translate(32 32)" rx="30" ry="30"/></g>
-<defs><clipPath id="clip_0_880"><rect width="64" height="64"/></clipPath>
+</style><g clip-path="url(#clip_0_75)">
+<ellipse fill="white" stroke="#CBCBCB" class="Black_225" transform="translate(32 32)" rx="30" ry="30"/></g>
+<defs><clipPath id="clip_0_75"><rect width="64" height="64"/></clipPath>
 </defs>
 </svg>

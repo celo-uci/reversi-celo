@@ -121,7 +121,8 @@ input::placeholder{
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    transition: background-color 0.5s ease-in, color 0.5s ease-in;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    text-decoration: none;
 }
 
 .btn-input:hover {

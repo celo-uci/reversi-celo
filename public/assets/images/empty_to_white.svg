@@ -1,8 +1,8 @@
 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-<style>.White_378 {
-	animation: 0.99s linear 0s 1 normal forwards running White_378;
+<style>.White_503 {
+	animation: 0.99s linear 0s 1 normal forwards running White_503;
 }
-@keyframes White_378 {
+@keyframes White_503 {
 	0% {
 		opacity: 0;
 	}
@@ -13,8 +13,8 @@
 		opacity: 1;
 	}
 }
-</style><g clip-path="url(#clip_0_435)">
-<ellipse fill="white" fill-opacity="0.8" stroke="#CBCBCB" class="White_378" transform="translate(32 32)" rx="30" ry="30"/></g>
-<defs><clipPath id="clip_0_435"><rect width="64" height="64"/></clipPath>
+</style><g clip-path="url(#clip_0_692)">
+<ellipse fill="white" stroke="#CBCBCB" class="White_503" transform="translate(32 32)" rx="30" ry="30"/></g>
+<defs><clipPath id="clip_0_692"><rect width="64" height="64"/></clipPath>
 </defs>
 </svg>
