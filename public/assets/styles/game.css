@@ -135,5 +135,9 @@ progress::-moz-progress-bar {
         width: 100%;
         margin: 0;
     }
-     
+    #quit {
+        position: relative;
+        right: auto;
+        left: auto;
+    }
 }

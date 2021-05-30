@@ -1,4 +1,15 @@
 
+$( document ).ready(function() {
+    var colors = [
+      "purple",
+      "blue",
+      "green",
+      "orange"
+    ];
+    var randomIndex = Math.floor(Math.random() * colors.length);
+    $("body").addClass(colors[randomIndex]);
+});
+
 function getIRIParameterValue(requestedKey) {
     let pageIRI = window.location.search.substring(1);
     let pageIRIVariables = pageIRI.split('&');
