@@ -16,10 +16,20 @@
     height: 20px;
     width: 20px;
 }
+.score-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 .score {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 16px;
+    max-width: 300px;
+    border: 2px solid black;
+    background: rgba(0,0,0,0.1);
 }
 .score > * {
     margin: 0 4px;
@@ -103,6 +113,18 @@ progress::-webkit-progress-value {
 progress::-moz-progress-bar {
     background-color: #000;
 
+}
+
+.progress-extras {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#time_elapsed {
+    align-self: flex-start;
+}
+.turn {
+    align-self: flex-end;
 }
 
 @media (max-width: 768px) {

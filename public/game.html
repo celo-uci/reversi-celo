@@ -21,9 +21,7 @@
       <div id="game_over" class="game-over-banner">
       </div>
       <div>
-        <div class="col-md-10">
-            <p id="whose_turn"></p>
-            
+        <div class="score-container">
             <div class="score">
                 <span id="im_white" class="img-fluid"></span>
                 <img class="score-token" src="assets/images/white.gif" alt="White Score"/>
@@ -252,7 +250,12 @@
               <div id="elapsed" class="progress-bar progress-bar-animated progress-bar-striped bg-success" role="progressbar" style="width: 0%;" area-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
           </div>-->
           <progress id="elapsed" max="100" value="1" class="progress"></progress>
-          <div id="time_elapsed"></div>
+          <div class="progress-extras"> 
+            <div id="time_elapsed"></div>
+            <div class="turn">
+                <span id="whose_turn"></span>
+            </div>
+          </div>
         </div>
         
         <div class="game-messages-container align-left">
