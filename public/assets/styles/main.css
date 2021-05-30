@@ -180,7 +180,7 @@ input::placeholder{
 }
 
 .chat_message, .join_room_response, .left_room_response {
-    margin-left: 16px;
+    margin: 16px;
 }
 
 .lobby-wrapper {
