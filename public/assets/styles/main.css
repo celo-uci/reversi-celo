@@ -193,13 +193,21 @@ input::placeholder{
 }
 
 .players-container {
-    flex-grow: 1;
+    width: 300px;
+}
+
+#players {
+    background: rgba(0,0,0,0.1);
+    padding: 16px;
 }
 
 .player-group {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin: 16px 0;
 }
+
 
 .text-start {
     text-align: left;
@@ -243,6 +251,9 @@ input::placeholder{
     }
     .messages-container {
         margin: 0;
+        width: 100%;
+    }
+    .players-container {
         width: 100%;
     }
      

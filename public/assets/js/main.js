@@ -174,8 +174,8 @@ socket.on('join_room_response', (payload) =>{
             </div>
         </div>
     */
+    $('#no_player_text').hide('fade', 500);
     let nodeA = $("<div></div>");
-    nodeA.addClass("row");
     nodeA.addClass("player-group");
     nodeA.addClass("socket_" + payload.socket_id);
     nodeA.hide();
@@ -489,4 +489,7 @@ socket.on('player_disconnected', (payload) =>{
     newNode.hide();
     $('#messages').prepend(newNode);
     newNode.show('fade', 500);
+    if(payload.count === 1) {
+        $('#no_player_text').show('fade', 500);
+    }
 });
